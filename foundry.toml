@@ -1,0 +1,16 @@
+[profile.default]
+# Project directories
+src = "src"
+lib = "lib"
+out = "out"
+test = "test"
+
+# Solidity compiler version
+solc = "0.8.20"
+
+# Enable optimizer
+optimizer = true
+optimizer_runs = 200
+
+# Remappings for dependencies
+remappings = ["forge-std/=lib/forge-std/src/"]
